@@ -9,6 +9,5 @@ return {
 
 	config = function()
 		vim.keymap.set("n", "<C-f>", ":Neotree float<CR>")
-		vim.keymap.set("n", "<C-e>", ":Neotree right<CR>")
-	end,
+		end,
 }
